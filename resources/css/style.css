@@ -89,6 +89,7 @@ nav {
  #pen {
    background-image: url("../images/pen.png");
    background-repeat: no-repeat;
+   background-position: center;
    display: inline-block;
    width:450px;
    height:550px;
@@ -99,6 +100,7 @@ nav {
     background-image: url("../images/watch.png");
     background-repeat: no-repeat;
     display: inline-block;
+    background-position: center;
     width: 450px;
     height: 550px;
     border: 5px solid black;
@@ -108,6 +110,7 @@ nav {
     background-image: url("../images/glasses.png");
     background-repeat: no-repeat;
     display: inline-block;
+    background-position: center;
     width: 450px;
     height: 550px;
     border: 5px solid black;
