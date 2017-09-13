@@ -1,6 +1,7 @@
 body {
-  justify-content: center;
+  align-content: center;
   font-family: Helvetica;
+
 }
 header {
   display: flex;
@@ -73,62 +74,79 @@ nav {
   background-color: firebrick;
   color: white;
   align-items: center;
-  word-spacing: 1cm;
+  word-spacing: 4cm;
   font-size: 2em;
   justify-content: space-around;
 }
 .products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   width: 100%;
-  height: 721px;
-  flex-direction: row ;
-  justify-content: center;
+  margin-top: 50px;
+
+}
+ #pen {
+   background-image: url("../images/pen.png");
+   background-repeat: no-repeat;
+   display: inline-block;
+   width:450px;
+   height:550px;
+   border: 5px solid black;
+   margin: 0 2.5% 0 5%;
+}
+#watch {
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 450px;
+    height: 550px;
+    border: 5px solid black;
+    margin: 0 2.5%;
+}
+#glasses {
+    background-image: url("../images/glasses.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 450px;
+    height: 550px;
+    border: 5px solid black;
+    margin: 0 5% 0 2.5%;
+}
+.product-name {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+  color: white;
   font-size: 2em;
   font-weight: normal;
+
 }
- p {
-  background-position: absolute;
-  top: 100%;
-  background-color: black;
-  margin-top: 450px;
-  width: 100%;
+#pen2 {
+  display: inline-block;
   height: 100px;
-  text-align: center;
-  color: white;
-}
-.products #pen {
-  background-image: url("../images/pen.png");
-  background-position: center;
-  display: inline-block;
-  border: 5px solid black;
-  height: 550px;
   width: 450px;
-  margin-left: 15%;
-  background-repeat:no-repeat;
-  margin-top: 50px;
-}
-  .products #watch {
-  background-image: url("../images/watch.png");
-  background-position: center;
-  display: inline-block;
-  border: 5px solid black;
-  height: 550px;
-  width: 450px;
-  margin-left: 15%;
-  background-repeat:no-repeat;
-  margin-top: 50px;
+  background-color: black;
   text-align: center;
-  justify-content: flex-end;
-}
-.products #glasses {
-  background-image: url("../images/glasses.png");
-  background-position: center;
-  display: inline-block;
+  margin: 0 2.5% 0 5%;
   border: 5px solid black;
-  height: 550px;
+}
+#watch2 {
+  display: inline-block;
+  height: 100px;
   width: 450px;
-  margin-left: 15%;
-  background-repeat:no-repeat;
-  margin-top: 50px;
+  background-color: black;
   text-align: center;
-  justify-content: flex-end;
+  margin: 0 2.5%;
+  border: 5px solid black;
+}
+#glasses2 {
+  display: inline-block;
+  height: 100px;
+  width: 450px;
+  background-color: black;
+  text-align: center;
+  margin: 0 5% 0 2.5%;
+  border: 5px solid black;
 }
